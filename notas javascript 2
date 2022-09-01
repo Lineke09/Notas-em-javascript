@@ -1,0 +1,20 @@
+const notaA = number(input.question('Digite a 1ª nota'))
+const notaB = number(input.question('Digite a 2ª nota'))
+const media = ((notaA + notaB))
+const resultadoFinal = ``
+if((media - 21) = 7 ){
+    resultadoFinal = `Você precisa tirar 7 na próxima prova`
+}
+if((media - 21) = 8 ){
+    resultadoFinal = `Você precisa tirar 8 na próxima prova`
+ }if((media - 21) = 9 ){
+    resultadoFinal = `Você precisa tirar 9 na próxima prova`
+} if((media - 21) = 10 ){
+    resultadoFinal = `Você precisa tirar 10 na próxima prova`
+}
+    else {
+    resultadoFinal = `aluno Resprovado`
+}
+console.clear()
+console.log(`Média do aluno: ${media}`)
+console.log(resultadoFinal)
