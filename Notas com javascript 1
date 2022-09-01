@@ -1,0 +1,13 @@
+const notaA = number(input.question('Digite a 1ª nota'))
+const notaB = number(input.question('Digite a 2ª nota'))
+const notaC = number(input.question('Digite a 3ª nota'))
+const media = ((notaA + notaB + notaC) / 3)
+const resultadoFinal = ``
+if(media >=7 ){
+    resultadoFinal = `Aluno aprovado`
+} else {
+    resultadoFinal = `aluno Resprovado`
+}
+console.clear()
+console.log(`Média do aluno: ${media}`)
+console.log(resultadoFinal)
